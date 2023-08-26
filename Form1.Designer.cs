@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             btnDispaly = new Button();
+            btnWorld = new Button();
             SuspendLayout();
             // 
             // btnDispaly
@@ -41,11 +42,22 @@
             btnDispaly.UseVisualStyleBackColor = true;
             btnDispaly.Click += btnDispaly_Click;
             // 
+            // btnWorld
+            // 
+            btnWorld.Location = new Point(65, 88);
+            btnWorld.Name = "btnWorld";
+            btnWorld.Size = new Size(253, 29);
+            btnWorld.TabIndex = 1;
+            btnWorld.Text = "Dispaly World";
+            btnWorld.UseVisualStyleBackColor = true;
+            btnWorld.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnWorld);
             Controls.Add(btnDispaly);
             Name = "Form1";
             Text = "Form1";
@@ -55,5 +67,6 @@
         #endregion
 
         private Button btnDispaly;
+        private Button btnWorld;
     }
 }
