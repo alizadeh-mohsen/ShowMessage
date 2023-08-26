@@ -6,5 +6,10 @@ namespace ShowMessage
         {
             InitializeComponent();
         }
+
+        private void btnDispaly_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello");
+        }
     }
 }
